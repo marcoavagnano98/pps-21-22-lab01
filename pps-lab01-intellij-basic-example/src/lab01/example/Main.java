@@ -2,6 +2,7 @@ package lab01.example;
 
 import lab01.example.model.AccountHolder;
 import lab01.example.model.BankAccount;
+import lab01.example.model.LevelAccount;
 import lab01.example.model.SimpleBankAccount;
 
 public class Main {
@@ -13,6 +14,7 @@ public class Main {
         bankAccount.deposit(accountHolder.getId(), 100);
 
         System.out.println("Current balance is " + bankAccount.getBalance());
+
 
         bankAccount.withdraw(accountHolder.getId(), 30);
 

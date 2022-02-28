@@ -10,7 +10,6 @@ public class AccountHolder {
     private final int id;
     private final String name;
     private final String surname;
-
     public AccountHolder(final String name, final String surname, final int id) {
         this.name = name;
         this.surname = surname;

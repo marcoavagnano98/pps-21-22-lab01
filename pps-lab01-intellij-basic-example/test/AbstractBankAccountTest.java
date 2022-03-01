@@ -9,22 +9,13 @@ public abstract class AbstractBankAccountTest {
     protected  BankAccount bankAccount;
     protected  FeeCalculator feeCalculator;
 
-  /*  public AbstractBankAccountTest(final BankAccount bankAccount, final AccountHolder accountHolder, final FeeCalculator feeCalculator){
-        this.bankAccount = bankAccount;
-        this.accountHolder = accountHolder;
-        this.feeCalculator = feeCalculator;
-    }*/
+
     protected void setAccount(final BankAccount bankAccount, final AccountHolder accountHolder, final FeeCalculator feeCalculator){
         this.bankAccount=bankAccount;
         this.accountHolder = accountHolder;
         this.feeCalculator=feeCalculator;
     }
 
-   /* @BeforeEach
-    void beforeEach() {
-        accountHolder = new AccountHolder("Mario", "Rossi", 1);
-        bankAccount = new SimpleBankAccount(accountHolder, 0);
-    }*/
 
     @Test
     void testInitialBalance() {
